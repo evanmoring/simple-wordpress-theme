@@ -1,0 +1,148 @@
+/*
+Theme Name: IPP Theme 01
+Author: Evan Moring
+Description: Simple theme for inprocessprojects.com
+Version: 0.0.4
+
+Tags: bootstrap
+*/
+
+
+
+html,body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}    
+
+body {
+
+        margin: 50px;
+        margin-top: 50px;
+         background: #fff;
+        color: #444444;;
+        font-family: helvetica;
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    
+    a{
+        color: #444444;
+        font-size: 16px;
+    }
+
+
+    #title {
+        color: #444444;
+    }
+    #content {
+        max-width: 1000px;
+        margin:  15px  0px 35px 0px ;
+    }
+    video {
+        width: 100%;
+
+    }
+
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; overflow: hidden; 
+    max-width: 100%; height: auto; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 100%; 
+   height: 100%; 
+}
+
+    .imageLink{
+        margin-left:20px;
+    }
+
+.archive{
+    margin-bottom: 25px;
+}
+
+#navigation ul li{
+    display: inline-flex;
+      justify-content: center;
+padding:15px;
+
+
+}
+#navigation ul li a{
+    text-decoration: none; 
+}
+#navWrap{
+    display: inline-block;
+    width: 100%;
+}
+
+
+#navigation ul{
+text-align: center;
+ list-style-type: none;
+            padding: 0px;
+margin: 0px;
+    }
+
+@media only screen and (min-width: 768px) {
+
+#navWrap{
+	margin-top:20px;
+    width: 195px;
+    float: left;
+    height: 100%;
+
+    
+}
+    #navigation ul{
+
+justify-content: flex-start;
+        position: fixed;
+        width: 175px;
+        grid-template-columns: auto;
+        display:grid;
+        grid-row-gap: 20px;
+    }
+#navigation ul li a{
+            padding: 0px;
+margin: 0px;
+        text-align: left;
+    }
+#navigation ul li{
+justify-content: left;
+padding:0px;
+}
+
+    #title {
+        color: #444444;
+        width:100%;
+    }
+    #content{
+        margin:  15px  0px 35px 222px ;
+    }
+}
+li.current_page_item a{
+    text-decoration:underline !important;
+
+}
+
+.wp-block-image{
+margin:0px;
+width:100%;
+}
+
+.wp-block-image img{
+height:auto;
+width:100%;
+}
+
+
